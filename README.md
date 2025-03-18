@@ -19,6 +19,7 @@ Comparison: Compare your fitness data (e.g., calories burned) with others in the
 Machine Learning Predictions:Predict calories burned using a Random Forest Regressor model trained on fitness data.
 
 **Technologies Used**
+
 Python: Primary programming language.
 
 Streamlit: For building the web application.
@@ -32,10 +33,12 @@ Matplotlib & Seaborn: For data visualization.
 NumPy: For numerical computations.
 
 **How to Run the App**
+
 streamlit run fitnesstracker.py
 
 
 **Future Enhancements**
+
 Add more workout types and exercises.
 
 Integrate with wearable devices (e.g. Watch) for real-time data.
