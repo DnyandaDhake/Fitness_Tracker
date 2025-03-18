@@ -31,3 +31,16 @@ Scikit-learn: For machine learning (Random Forest Regressor).
 Matplotlib & Seaborn: For data visualization.
 
 NumPy: For numerical computations.
+
+**How to Run the App**
+streamlit run fitnesstracker.py
+
+
+**Future Enhancements**
+Add more workout types and exercises.
+
+Integrate with wearable devices (e.g. Watch) for real-time data.
+
+Add user authentication and profiles.
+
+Improve the machine learning model with more data and features.
