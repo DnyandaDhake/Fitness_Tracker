@@ -1,1 +1,244 @@
+body {
+    font-family: 'verdana';
+    background-color: #01796f;
+    color: #01796f;
+    text-align: center;
+}
 
+
+.big-title {
+    font-size: 58 px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+
+.subtitle {
+    font-size: 18px;
+    color: #b2dfdb;
+    margin-bottom: 30px;
+}
+
+
+.feature-box {
+   background-color:#fae7b5 ;
+
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #fae7b5 ;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+
+.feature-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-box ul li {
+    font-size: 18px;
+    padding: 10px 0;
+    color: black;
+}
+
+.feature-box ul li strong {
+    color:black;
+}
+
+.stApp {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    background-color:#264348!important;
+     background-image: linear-gradient(45deg , #22c8ce , #19376D );
+
+    color: white !important;
+}
+
+.stApp {
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+[data-testid="stAppViewContainer"] {
+    padding: 0px !important;
+    margin: 0px !important;
+    height: 100vh;
+    width: 100vw;
+}
+
+[data-testid="stHeader"] {
+    display: none !important;
+}
+
+
+[data-testid="block-container"] {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: teal !important;
+    color: #db7093;
+}
+
+.st.subheader {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar .sidebar-content {
+    background-color: #da1d81;
+    color: #da1d81;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content .stSelectbox label {
+    color: #da1d81;
+    font-weight: bold;
+}
+
+
+
+.stButton button {
+    background: linear-gradient(135deg, #ff6f61, #ffcc00) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    padding: 12px 25px !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    font-family: 'verdana', sans-serif !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: 0.3s ease !important;
+}
+.stButton button:hover {
+    background: linear-gradient(135deg, #0044cc, #0077cc);
+}
+
+.st-card {
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin: 15px 0;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.stDataFrame {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    color:#fae7b5 ;
+}
+
+
+input[type="text"], input[type="number"], input[type="date"] {
+    background-color: #e2f1fb;
+    color: black;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+label {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.stProgress > div > div > div {
+    background: linear-gradient(90deg, #fffacd , #00ddff);
+    border-radius: 5px;
+
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #264348 !important;
+    background-image: linear-gradient(45deg ,#000036, #19376D )
+}
+
+section[data-testid="stSidebar"] h1{color:white},
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3,
+section[data-testid="stSidebar"] label{color:black},
+section[data-testid="stSidebar"] div {
+    color: white !important;
+}
+
+
+
+
+.stAlert strong, .stSuccess strong {
+    color: black !important;
+}
+.stAlert, .stSuccess {
+    background-image: linear-gradient(45deg ,#ffcba4 ,#ffcba4 );
+    color: black !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size:22px;
+    text-align: center;
+}
+
+
+.stAlert p, .stSuccess p {
+    color: black !important;
+    font-weight: bold;
+}
+
+.stMetric {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width:100%;
+}
+
+.stMetric label {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.stMetric div {
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stMetric div[data-testid="stMetricDelta"] {
+    color: #ff0000 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stMetric div[data-testid="stMetricDelta"] svg {
+    fill: #ff0000 !important;
+}
