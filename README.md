@@ -1,7 +1,7 @@
 # Fitness_Tracker
 The Fitness Tracker App is an application designed to help users track their fitness activities, calculate calories burned, and get personalized fitness suggestions. The app uses machine learning (Random Forest Regressor) to predict calories burned based on user input and provides AI-generated fitness recommendations based on health conditions, gender, and body metrics.
 
-#Features
+**Features**
 
 
 Track Progress: Enter your fitness activities (weight, height, workout type, duration, etc.).
@@ -19,7 +19,7 @@ Comparison: Compare your fitness data (e.g., calories burned) with others in the
 
 Machine Learning Predictions:Predict calories burned using a Random Forest Regressor model trained on fitness data.
 
-#Technologies Used
+**Technologies Used**
 Python: Primary programming language.
 
 Streamlit: For building the web application.
