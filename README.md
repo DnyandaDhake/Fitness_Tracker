@@ -13,7 +13,6 @@ BMI Calculator:Calculate your Body Mass Index (BMI) using weight and height inpu
 Get feedback on your BMI category (underweight, normal, overweight, obese).
 
 
-Calculate net calories and get feedback on your calorie balance.
 
 Comparison: Compare your fitness data (e.g., calories burned) with others in the dataset.
 
